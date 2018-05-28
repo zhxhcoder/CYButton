@@ -5,13 +5,83 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <com.zhxh.cybutton.component.CYButton
         android:id="@+id/btnGo"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:text="CYButton"
+        android:text="3"
+        CYButton:borderRadius="0dp"
+        CYButton:buttonColor="#ff700332"
+        CYButton:innerRadius="0dp"
+        CYButton:outerRadius="5dp"
+        CYButton:shadowColor="#ffbba332"
+        CYButton:shadowEnabled="false"
+        CYButton:shadowHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <com.zhxh.cybutton.component.CYButton
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="4"
+        CYButton:borderRadius="0dp"
+        CYButton:buttonColor="#ffaa1332"
+        CYButton:innerRadius="0dp"
+        CYButton:outerRadius="45dp"
+        CYButton:shadowColor="#ffbba332"
+        CYButton:shadowEnabled="false"
+        CYButton:shadowHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <com.zhxh.cybutton.component.CYButton
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="6"
+        CYButton:borderRadius="12dp"
+        CYButton:buttonColor="#0ff000"
+        CYButton:innerRadius="10dp"
+        CYButton:outerRadius="10dp"
+        CYButton:shadowColor="#0000000"
+        CYButton:shadowEnabled="false"
+        CYButton:shadowHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <com.zhxh.cybutton.component.CYButton
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="5"
+        CYButton:borderRadius="0dp"
+        CYButton:buttonColor="#ff134432"
+        CYButton:innerRadius="0dp"
+        CYButton:outerRadius="0dp"
+        CYButton:shadowColor="#ffbba332"
+        CYButton:shadowEnabled="false"
+        CYButton:shadowHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <com.zhxh.cybutton.component.CYButton
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="2"
         CYButton:borderRadius="0dp"
         CYButton:buttonColor="#ffaaa332"
         CYButton:innerRadius="0dp"
@@ -22,6 +92,25 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <com.zhxh.cybutton.component.CYButton
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="1"
+        CYButton:borderRadius="0dp"
+        CYButton:buttonColor="#ff11a332"
+        CYButton:innerRadius="0dp"
+        CYButton:outerRadius="45dp"
+        CYButton:shadowColor="#ff11a332"
+        CYButton:shadowEnabled="false"
+        CYButton:shadowHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
 
 </android.support.constraint.ConstraintLayout>
