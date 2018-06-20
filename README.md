@@ -128,7 +128,7 @@ outerRadius 设置button的圆角角度
 
 效果图如下：
 
-![](https://github.com/zhxhcoder/CYButton/blob/master/app/screenshots/cybutton.png)
+![](https://github.com/zhxhcoder/CYButton/blob/master/app/screenshots/cybutton.gif)
 
 ~~~
     <com.zhxh.cybutton.component.CYButton
