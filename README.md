@@ -149,7 +149,10 @@ outerRadius 设置button的圆角角度
         app:layout_constraintVertical_bias="0.836" />
 ~~~
 XborderRadius 存在值时表示空心button
+
+
 ![](https://github.com/zhxhcoder/CYButton/blob/master/app/screenshots/cy6.png)
+
 
 
 第二版更新为未完待续
