@@ -1,6 +1,11 @@
 # CYButton
 CYButton 告别各种shape文件
 
+效果图如下：
+
+![](https://github.com/zhxhcoder/CYButton/blob/master/app/screenshots/cybutton.gif)
+
+
 ~~~
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -126,9 +131,6 @@ buttonColor 设置button的前景色
 outerRadius 设置button的圆角角度
 ...
 
-效果图如下：
-
-![](https://github.com/zhxhcoder/CYButton/blob/master/app/screenshots/cybutton.gif)
 
 ~~~
     <com.zhxh.cybutton.component.CYButton
