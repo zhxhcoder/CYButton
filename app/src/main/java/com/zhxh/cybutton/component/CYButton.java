@@ -170,20 +170,20 @@ public class CYButton extends android.support.v7.widget.AppCompatButton implemen
         if (typedArray == null) return;
         for (int i = 0; i < typedArray.getIndexCount(); i++) {
             int attr = typedArray.getIndex(i);
-            if (attr == R.styleable.CYButton_shadowEnabled) {
+            if (attr == R.styleable.CYButton_XshadowEnabled) {
                 isShadowEnabled = typedArray.getBoolean(attr, true); //Default is true
-            } else if (attr == R.styleable.CYButton_buttonColor) {
+            } else if (attr == R.styleable.CYButton_XbuttonColor) {
                 mButtonColor = typedArray.getColor(attr, cy_btn_default_color);
-            } else if (attr == R.styleable.CYButton_shadowColor) {
+            } else if (attr == R.styleable.CYButton_XshadowColor) {
                 mShadowColor = typedArray.getColor(attr, cy_btn_default_shadow_color);
                 isShadowColorDefined = true;
-            } else if (attr == R.styleable.CYButton_shadowHeight) {
+            } else if (attr == R.styleable.CYButton_XshadowHeight) {
                 mShadowHeight = typedArray.getDimensionPixelSize(attr, cy_btn_default_null);
-            } else if (attr == R.styleable.CYButton_borderRadius) {
+            } else if (attr == R.styleable.CYButton_XborderRadius) {
                 borderWidth = typedArray.getDimensionPixelSize(attr, cy_btn_default_null);
-            } else if (attr == R.styleable.CYButton_outerRadius) {
+            } else if (attr == R.styleable.CYButton_XouterRadius) {
                 outerRadius = typedArray.getDimensionPixelSize(attr, cy_btn_default_null);
-            } else if (attr == R.styleable.CYButton_innerRadius) {
+            } else if (attr == R.styleable.CYButton_XinnerRadius) {
                 innerRadius = typedArray.getDimensionPixelSize(attr, cy_btn_default_null);
             }
         }
@@ -304,7 +304,7 @@ public class CYButton extends android.support.v7.widget.AppCompatButton implemen
         }
 
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.CYButton);
-        int paddingId = typedArray.getDimensionPixelSize(R.styleable.CYButton_iconPadding, 0);
+        int paddingId = typedArray.getDimensionPixelSize(R.styleable.CYButton_XiconPadding, 0);
         setIconPadding(paddingId);
         typedArray.recycle();
     }

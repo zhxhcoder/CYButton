@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CYButton">
-        <attr name="shadowEnabled" format="boolean" />
-        <attr name="buttonColor" format="color" />
-        <attr name="shadowColor" format="color" />
-        <attr name="shadowHeight" format="dimension" />
-        <attr name="borderRadius" format="dimension" />
-        <attr name="outerRadius" format="dimension" />
-        <attr name="innerRadius" format="dimension" />
-        <attr name="iconPadding" format="dimension" />
+        <attr name="XshadowEnabled" format="boolean" />
+        <attr name="XbuttonColor" format="color" />
+        <attr name="XshadowColor" format="color" />
+        <attr name="XshadowHeight" format="dimension" />
+        <attr name="XborderRadius" format="dimension" />
+        <attr name="XouterRadius" format="dimension" />
+        <attr name="XinnerRadius" format="dimension" />
+        <attr name="XiconPadding" format="dimension" />
     </declare-styleable>
 </resources>
